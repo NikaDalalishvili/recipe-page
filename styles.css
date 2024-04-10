@@ -186,7 +186,8 @@ body {
 
 .mid-line {
     /* White Coffee */
-    border: 1px solid var(--white-coffee);
+    border: none;
+    border-bottom: 1px solid var(--white-coffee);
 }
 
 .instructions ul {
