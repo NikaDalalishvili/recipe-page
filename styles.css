@@ -284,3 +284,24 @@ body {
     border-bottom: 1px solid var(--white-coffee);
 }
 
+@media only screen and (max-width: 375px) {
+    .recipe-card {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+        gap: 0;
+    }
+    .header-img-container {
+        border-radius: 0;
+    }
+    .text-content {
+        padding: 40px 32px;
+    }
+    .recipe-title {
+        font-size: 36px;
+    }
+    .preparation {
+        padding: 24px;
+    }
+    
+}
