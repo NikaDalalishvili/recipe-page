@@ -133,6 +133,9 @@
 
 body {
     background: var(--eggshell);
+}
+
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -282,6 +285,38 @@ body {
 
 .nutrition table tr:not(:last-child) {
     border-bottom: 1px solid var(--white-coffee);
+}
+
+footer {
+    padding: 15px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.attribution {
+    padding: 10px 12px;
+
+    border-radius: 0 10px 10px 0;
+    background-color: var(--white);
+
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--wenge-brown);
+
+}
+
+.attribution a {
+    text-decoration: none;
+    font-family: 'Young Serif';
+    font-size: 18px;
+    color: var(--nutmeg); 
+    transition: color 0.5s ease;
+}
+
+.attribution a:hover {
+    color: var(--dark-charcoal);
 }
 
 @media only screen and (max-width: 375px) {
